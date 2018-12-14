@@ -1,15 +1,20 @@
 <template>
     <div id="test">
-        {{msg}}
+        <!-- {{ msg }} -->
+        <Header></Header>
     </div>
 </template>
  
 <script>
+import Header from "./head/index.vue"
 export default {
     data() {
         return {
             msg: 'hello vue+webpack'
         }
+    },
+    components: {
+        Header
     }
 }
 </script>

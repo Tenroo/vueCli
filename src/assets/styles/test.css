@@ -1,5 +1,5 @@
 body {
     color: red;
-    /* background-image: url('../images/done.svg') */
-    background-color: #3fca8a;
+    background-image: url('../images/done.svg')
+    /* background-color: #3fca8a; */
 }

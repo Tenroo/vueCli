@@ -11,6 +11,7 @@
 </template>
 <script>
 export default {
+    //父向子组件传递参数
     props: {
         todo: {
             type: Object,
@@ -18,8 +19,9 @@ export default {
         }
     },
     methods: {
+        //删除通过子向父传值得方法进行
         deleteTodo(){
-
+            this.$emit("del", this.todo.id)
         }
     }
 }
